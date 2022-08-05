@@ -1,13 +1,29 @@
 .container {
-  padding: 0 2rem;
+  padding: 3rem 10rem;
+  width: 100%;
 }
 
+.main {
+  position: relative;
+  min-height: 90vh;
+}
+
+.heroImage {
+  position: absolute;
+  top: 5rem;
+  right: 5rem;
+}
 
 .footer {
   display: flex;
+  align-self: flex-end;
   flex: 1;
-  padding: 2rem 0;
+  padding: 1rem 0;
   border-top: 1px solid #eaeaea;
   justify-content: center;
   align-items: center;
+}
+
+.footer h3 {
+  font-size: 2rem;
 }
